@@ -1,5 +1,7 @@
 # Living Numbers Game - Experimental Laboratory
 
+![Demo](show.gif)
+
 An interactive cellular automaton simulation inspired by Conway's Game of Life, enhanced with aging mechanics, dynamic mutations, and real-time statistical analysis.
 
 ## 🎯 Purpose
@@ -18,8 +20,8 @@ This application explores **emergent complexity** in artificial life systems by 
 ### Build & Run
 
 ```bash
-go build -o jeu_nombres main.go
-./jeu_nombres
+go build -o living_numbers main.go
+./living_numbers
 ```
 
 ### Requirements
@@ -177,7 +179,15 @@ This is an experimental research tool. Modifications welcome for:
 - Alternative visualization modes
 - Multi-grid comparisons
 
-## 📄 License
+## 🛠️ Development
+
+This project was developed with the assistance of **Kilo Code** and **Claude Sonnet 4.5** to learn and master:
+- **Go programming**: Language fundamentals, compilation, and project structure
+- **GUI development**: Fyne framework for cross-platform graphical interfaces
+- **Mathematical modeling**: Cellular automaton algorithms and statistical analysis
+- **Real-time rendering**: Dynamic visual generation and post-processing effects
+
+## License
 
 Open source - Educational and research purposes
 
